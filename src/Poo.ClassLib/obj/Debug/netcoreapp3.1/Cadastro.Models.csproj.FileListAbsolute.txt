@@ -1,0 +1,16 @@
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.csprojAssemblyReference.cache
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.AssemblyInfoInputs.cache
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.AssemblyInfo.cs
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\bin\Debug\netcoreapp3.1\Cadastro.Models.deps.json
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\bin\Debug\netcoreapp3.1\Cadastro.Models.dll
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\bin\Debug\netcoreapp3.1\Cadastro.Models.pdb
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.dll
+E:\PONTOSYS\Curso\POO\Solution1\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.pdb
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\bin\Debug\netcoreapp3.1\Cadastro.Models.deps.json
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\bin\Debug\netcoreapp3.1\Cadastro.Models.dll
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\bin\Debug\netcoreapp3.1\Cadastro.Models.pdb
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.csprojAssemblyReference.cache
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.AssemblyInfoInputs.cache
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.AssemblyInfo.cs
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.dll
+E:\PONTOSYS\Curso\POO\ExercicioPilaresOrientadaObjeto\src\Poo.ClassLib\obj\Debug\netcoreapp3.1\Cadastro.Models.pdb
