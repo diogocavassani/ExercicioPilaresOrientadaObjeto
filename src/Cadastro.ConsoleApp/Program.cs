@@ -105,7 +105,7 @@ namespace Cadastro.ConsoleApp
             else
                 Console.WriteLine($"Ola, {fornecedorDois.RazaoSocial} o CNPJ {fornecedorDois.Cnpj} não é valido");
             #endregion
-        }
+        } 
 
         private static bool DocumentoValido(Pessoa pessoa)
         {
