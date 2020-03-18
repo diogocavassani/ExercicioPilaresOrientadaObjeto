@@ -10,7 +10,7 @@ namespace Cadastro.Models
         public string Cnpj { get; set; }
         public string InscricaoEstadual { get; set; }
 
-        public override bool ValidadorDocumento(string cnpj)
+        public override bool ValidadorDocumento()
         {
 			int[] multiplicador1 = new int[12] { 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
 			int[] multiplicador2 = new int[13] { 6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -19,13 +19,13 @@ namespace Cadastro.Models
 			string digito;
 			string tempCnpj;
 
-			cnpj = cnpj.Trim();
-			cnpj = cnpj.Replace(".", "").Replace("-", "").Replace("/", "");
+			Cnpj = Cnpj.Trim();
+			Cnpj = Cnpj.Replace(".", "").Replace("-", "").Replace("/", "");
 
-			if (cnpj.Length != 14)
+			if (Cnpj.Length != 14)
 				return false;
 
-			tempCnpj = cnpj.Substring(0, 12);
+			tempCnpj = Cnpj.Substring(0, 12);
 
 			soma = 0;
 			for (int i = 0; i < 12; i++)
@@ -52,7 +52,7 @@ namespace Cadastro.Models
 
 			digito = digito + resto.ToString();
 
-			return cnpj.EndsWith(digito);
+			return Cnpj.EndsWith(digito);
 		}
 
     }

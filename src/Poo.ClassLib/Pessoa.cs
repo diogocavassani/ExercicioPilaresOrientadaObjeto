@@ -9,9 +9,9 @@ namespace Cadastro.Models
         
         public string Endereco { get; set; }
         public string Email { get; set; }
-        public bool Ativo { get; set; }
+        public bool Ativo { get; set; } = true;
 
-        public abstract bool ValidadorDocumento(string documento);
+        public abstract bool ValidadorDocumento();
 
     }
 }

@@ -10,7 +10,7 @@ namespace Cadastro.Models
         public string Cpf { get; set; }
         public string Rg { get; set; }
 
-		public override bool ValidadorDocumento(string cpf)
+		public override bool ValidadorDocumento()
 		{
 			int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
 			int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -19,13 +19,13 @@ namespace Cadastro.Models
 			int soma;
 			int resto;
 
-			cpf = cpf.Trim();
-			cpf = cpf.Replace(".", "").Replace("-", "");
+			Cpf = Cpf.Trim();
+			Cpf = Cpf.Replace(".", "").Replace("-", "");
 
-			if (cpf.Length != 11)
+			if (Cpf.Length != 11)
 				return false;
 
-			tempCpf = cpf.Substring(0, 9);
+			tempCpf = Cpf.Substring(0, 9);
 			soma = 0;
 
 			for (int i = 0; i < 9; i++)
@@ -53,7 +53,7 @@ namespace Cadastro.Models
 
 			digito = digito + resto.ToString();
 
-			return cpf.EndsWith(digito);
+			return Cpf.EndsWith(digito);
 		}
 	}
 }
